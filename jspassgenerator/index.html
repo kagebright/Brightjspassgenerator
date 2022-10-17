@@ -13,8 +13,8 @@
     <div class="container">
         <h1 class="title"> Password Generator</h1>
         <h3 class="password-display"> Password</h3>
-        <form class="form">
-           <label for="characterAmtNumber">Number of Characters</label>
+        <form id="passwordGeneratorForm"class="form">
+           <label for="numberofCharacters">Number of Characters</label>
            <div class="characterAmtContainer">
             <input type="range" min="1" max="128" value="8" 
             id="characterAmtRange">
@@ -25,8 +25,7 @@
            <label for="includeUppercase">Include Uppercase</label>
            <input type="checkbox" id="includeUppercase">
 
-           <label for="includeLowercase">Include Lowercase</label>
-           <input type="checkbox" id="includeLowercase">
+           
 
            <label for="includeNumbers">Include Numbers</label>
            <input type="checkbox" id="includeNumbers">
