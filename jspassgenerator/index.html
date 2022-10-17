@@ -11,14 +11,14 @@
 </head>
 <body>
     <div class="container">
-        <h1> Password Generator</h1>
-        <h3> Password</h3>
+        <h1 class="title"> Password Generator</h1>
+        <h3 class="password-display"> Password</h3>
         <form class="form">
            <label for="characterAmtNumber">Number of Characters</label>
-           <div>
+           <div class="characterAmtContainer">
             <input type="range" min="1" max="128" value="8" 
             id="characterAmtRange">
-            <input type="number" min="1" max="128" value="8"
+            <input class="number-input" type="number" min="1" max="128" value="8"
             id="characterAmtNumber">
            </div>
           
@@ -34,7 +34,7 @@
            <label for="includeSpecialCharacters">Include Special characters</label>
            <input type="checkbox" id="includeSpecialCharacters">
 
-           <button type="submit">Generate Password</button>
+           <button type="submit" class="btn">Generate Password</button>
         </form>
     </div>
 </body>
