@@ -1,4 +1,4 @@
-/* styling the page for the password generator*/
+/* styling the page for the password generator */
 body {
     background-color: rgb(40, 36, 36);
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-/* styling the password generator box*/
+/* styling the password generator box */
 .container {
     background-color:#006699;
     padding: 3rem;
@@ -22,7 +22,11 @@ body {
     flex-direction: column;
 }
 
+/* styling the form inputs*/
 .form{
     display: grid;
     grid-template-columns:auto auto;
+    row-gap: 1rem;
+    column-gap: 2rem;
+
 }
