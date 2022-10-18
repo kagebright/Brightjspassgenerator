@@ -6,35 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Bright JS Password Generator</title>
-    
-    
+
+
 </head>
 <body>
     <div class="container">
         <h1 class="title"> Password Generator</h1>
-        <h3 class="password-display"> Password</h3>
-        <form id="passwordGeneratorForm"class="form">
-           <label for="numberofCharacters">Number of Characters</label>
-           <div class="characterAmtContainer">
-            <input type="range" min="1" max="128" value="8" 
-            id="characterAmtRange">
-            <input class="number-input" type="number" min="1" max="128" value="8"
-            id="characterAmtNumber">
-           </div>
-          
-           <label for="includeUppercase">Include Uppercase</label>
-           <input type="checkbox" id="includeUppercase">
+    <div class="card">
+        <div class="card">
+            <div class="card-header">
+                <h2>Generate a Password</h2>
+            </div>
+        </div>
 
-           
-
-           <label for="includeNumbers">Include Numbers</label>
-           <input type="checkbox" id="includeNumbers">
-
-           <label for="includeSpecialCharacters">Include Special characters</label>
-           <input type="checkbox" id="includeSpecialCharacters">
-
-           <button type="submit" class="btn">Generate Password</button>
-        </form>
+    </div>
+    <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password"
+        times-roman="Generated Password"></textarea>
+    </div>
+    <button type="generate" class="btn">Generate Password</button>
         <script src="assets/js/script.js"></script>
     </div>
 </body>
