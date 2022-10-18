@@ -22,16 +22,6 @@ body {
     flex-direction: column;
 }
 
-/* styling the form inputs*/
-.form{
-    display: grid;
-    grid-template-columns:auto auto;
-    row-gap: 1rem;
-    column-gap: 2rem;
-    justify-content: center;
-    align-items: center;
-}
-
 /* styling the elements */
 .title {
     margin: 0;
