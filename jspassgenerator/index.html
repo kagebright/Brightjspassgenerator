@@ -7,25 +7,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Bright JS Password Generator</title>
 
-
 </head>
 <body>
-    <div class="container">
-        <h1 class="title"> Password Generator</h1>
-    <div class="card">
+    <div class="wrapper">
+        <header>
+            <h1>Password Generator</h1>
+        </header>
         <div class="card">
             <div class="card-header">
                 <h2>Generate a Password</h2>
             </div>
+            <div class="card-body">
+                <textarea
+                readonly
+                id="password"
+                placeholder="Your Secure Password"
+                times-label="Generated Password"
+            ></textarea>
+            </div>
+            <div class="card-footer">
+                <button id="generate" class="btn">Generate Password</button>
+            </div>
         </div>
+    </div>
 
-    </div>
-    <div class="card-body">
-        <textarea readonly id="password" placeholder="Your Secure Password"
-        times-roman="Generated Password"></textarea>
-    </div>
-    <button type="generate" class="btn">Generate Password</button>
-        <script src="assets/js/script.js"></script>
-    </div>
+    <!--This is the link to the JavaScript-->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
